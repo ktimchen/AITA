@@ -6,3 +6,5 @@ WHERE subreddit = "AmItheAsshole"
 AND score>=3
 AND (LOWER(body) LIKE "nta%" OR LOWER(body) LIKE "% nta%" OR LOWER(body) LIKE "yta%" OR LOWER(body) LIKE "% yta%")
 ```
+
+This takes care of strings like ponYTAil and coNTAct.
