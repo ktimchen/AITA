@@ -1,4 +1,4 @@
-Google bigquery getting the AITA comments from 2018-2019:
+Google BigQuery getting the AITA comments from 2018-2019:
 ```
 SELECT body
 FROM TABLE_QUERY([fh-bigquery:reddit_comments], "table_id LIKE '2019%' OR table_id LIKE '2018%'")
