@@ -4,7 +4,9 @@ Analysis of the r/AmItheAsshole comments.
 <p class = "center">
     <img src="yta_nta.png" />
 </p>
+
 The AITA subreddit is an incredible source of human emotions, moral dilemmas and judgements. Many of the comments are self-labeled by the users themselves. Here's a couple of examples:
+
 
 > NTA because she agreed to go to the game but I really can’t blame her. Nothing more boring than cricket and baseball in terms of sport so I really don’t blame her for not wanting to go.
 
