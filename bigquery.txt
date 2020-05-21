@@ -3,7 +3,7 @@ Google BigQuery getting the AITA comments from 2018-2019:
 SELECT body
 FROM TABLE_QUERY([fh-bigquery:reddit_comments], "table_id LIKE '2019%' OR table_id LIKE '2018%'")
 WHERE subreddit = "AmItheAsshole" 
-###AND score>=3
+/* AND score>=3 */
 AND (LOWER(body) LIKE "nta%" OR LOWER(body) LIKE "% nta%" OR LOWER(body) LIKE "yta%" OR LOWER(body) LIKE "% yta%")
 ```
 
